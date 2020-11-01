@@ -40,7 +40,6 @@ export default function Products() {
         console.log(res);
         setProducts(res.data)
       });
-    // setProducts(productList);
   }, [])
 
   return (
